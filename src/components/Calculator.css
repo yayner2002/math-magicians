@@ -1,0 +1,63 @@
+.container {
+  width: 85%;
+  margin: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.result-container {
+  text-align: right;
+  background-color: rgb(133, 134, 148);
+  padding: 35px;
+  padding-right: 10px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  padding: 50px;
+  cursor: pointer;
+  color: #000;
+  font-size: 25px;
+  outline: none;
+}
+
+.first-row button:last-child,
+.second-row button:last-child,
+.third-row button:last-child,
+.fourth-row button:last-child,
+.fifth-row button:last-child {
+  background-color: #f5913e;
+  border: none;
+  border-top: 2px solid #e0e0e0;
+}
+
+.fifth-row {
+  display: flex;
+}
+
+.fifth-row button:first-child {
+  flex: 2;
+  flex-basis: 50%;
+}
+
+.fifth-row button:nth-child(2) {
+  flex: 1;
+  flex-basis: 25%;
+}
+
+.fifth-row button:nth-child(3) {
+  flex: 1;
+  flex-basis: 25%;
+}
