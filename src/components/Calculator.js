@@ -31,7 +31,6 @@ class Calculator extends Component {
         <div className="second-row">
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
             id="7"
           >
@@ -39,7 +38,6 @@ class Calculator extends Component {
           </button>
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
             id="8"
           >
@@ -47,7 +45,6 @@ class Calculator extends Component {
           </button>
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
             id="9"
           >
@@ -55,17 +52,15 @@ class Calculator extends Component {
           </button>
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
-            id="*"
+            id="x"
           >
-            *
+            x
           </button>
         </div>
         <div className="third-row">
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
             id="4"
           >
@@ -73,7 +68,6 @@ class Calculator extends Component {
           </button>
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
             id="5"
           >
@@ -81,7 +75,6 @@ class Calculator extends Component {
           </button>
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
             id="6"
           >
@@ -89,7 +82,6 @@ class Calculator extends Component {
           </button>
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
             id="-"
           >
@@ -99,7 +91,6 @@ class Calculator extends Component {
         <div className="fourth-row">
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
             id="1"
           >
@@ -107,7 +98,6 @@ class Calculator extends Component {
           </button>
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
             id="2"
           >
@@ -115,7 +105,6 @@ class Calculator extends Component {
           </button>
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
             id="3"
           >
@@ -123,7 +112,6 @@ class Calculator extends Component {
           </button>
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
             id="+"
           >
@@ -133,7 +121,6 @@ class Calculator extends Component {
         <div className="fifth-row">
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
             id="0"
           >
@@ -141,7 +128,6 @@ class Calculator extends Component {
           </button>
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
             id="."
           >
@@ -149,7 +135,6 @@ class Calculator extends Component {
           </button>
           <button
             type="button"
-            className="col"
             onClick={onBtnClick}
             id="="
           >
