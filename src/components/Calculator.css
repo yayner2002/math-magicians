@@ -94,7 +94,7 @@ nav {
   min-height: 10vh;
 } */
 
-/* .nav-links {
+.nav-links {
   width: 15%;
   display: flex;
   list-style: none;
@@ -106,4 +106,4 @@ nav {
 
 article {
   margin-bottom: 1rem;
-} */
+}
