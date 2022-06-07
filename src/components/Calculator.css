@@ -1,12 +1,16 @@
-.container {
-  width: 85%;
-  margin: auto;
+
+body {
+  background-color: rgb(223, 194, 194);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculatorContainer {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
 }
 
-.result-container {
+.resultContainer {
   text-align: right;
   background-color: rgb(133, 134, 148);
   padding: 35px;
@@ -59,4 +63,82 @@ button {
 .fifth-row button:nth-child(3) {
   flex: 1;
   flex-basis: 25%;
+}
+
+.calculator {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+/* -----style in react routing---- */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  min-height: 10vh;
+  background-color: rgb(73, 79, 82);
+  color: #fff;
+  position: static;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  box-sizing: border-box;
+  margin-top: 1.5rem;
+}
+
+.nav-content {
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  min-height: 10vh;
+}
+
+.nav-links {
+  width: 18%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+article {
+  margin-bottom: 1rem;
+}
+
+.nav-links li {
+  position: relative;
+  border-right: 2px solid coral;
+  padding-right: 8px;
+}
+
+#lastItem {
+  border-right: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li::after {
+  content: '';
+  width: 0;
+  background: coral;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.nav-links li:hover::after {
+  width: 100%;
 }

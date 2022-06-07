@@ -8,7 +8,8 @@
 
 [Live Demo Link](https://yayner2002.github.io/react-math-magicians/)
 
-
+## Screenshot
+![home page](app_screenshot.png?raw=true "home screenshot")
 ## Getting Started
 
 **To get a local copy up clone the repo or download the full souce code**
