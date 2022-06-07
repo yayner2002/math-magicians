@@ -22,7 +22,7 @@ function Nav() {
             <li>Calculator</li>
           </Link>
           <Link to="/quote" style={navStyle}>
-            <li>Quote</li>
+            <li id="lastItem">Quote</li>
           </Link>
         </ul>
       </div>
