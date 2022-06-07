@@ -77,7 +77,7 @@ nav {
   color: #fff;
 } */
 
-/* .container {
+.container {
   width: 90%;
   margin: auto;
   box-sizing: border-box;
@@ -92,7 +92,7 @@ nav {
   justify-content: space-between;
   align-content: center;
   min-height: 10vh;
-} */
+}
 
 .nav-links {
   width: 15%;
