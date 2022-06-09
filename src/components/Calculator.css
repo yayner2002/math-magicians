@@ -22,7 +22,8 @@ body {
   overflow: hidden;
   margin: 0;
 }
-.resultContainer span{
+
+.resultContainer span {
   padding: 0;
   margin: 0;
 }
@@ -79,7 +80,8 @@ button {
   justify-content: space-between;
   margin-bottom: 5%;
 }
-.calculator h1{
+
+.calculator h1 {
   flex: 1;
 }
 
