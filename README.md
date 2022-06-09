@@ -5,7 +5,7 @@
 
 - React
 ## Live Demo Link
-[herokuapp](https://yayner-react-calculator-app.herokuapp.com/) | [netlify](https://yayner-react-calculator-app.netlify.app/)
+[heroku](https://yayner-react-calculator-app.herokuapp.com/) | [netlify](https://yayner-react-calculator-app.netlify.app/)
 
 ## Screenshot
 ![home page](app_screenshot.png?raw=true "home screenshot")
