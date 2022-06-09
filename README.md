@@ -6,7 +6,7 @@
 - React
 ## Live Demo
 
-[Live Demo Link](https://yayner2002.github.io/react-math-magicians/)
+[Live Demo Link](https://yayner-react-calculator-app.herokuapp.com/)
 
 ## Screenshot
 ![home page](app_screenshot.png?raw=true "home screenshot")
