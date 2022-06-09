@@ -8,15 +8,24 @@ body {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  flex: 2;
 }
 
 .resultContainer {
   text-align: right;
   background-color: rgb(133, 134, 148);
-  padding: 35px;
+  padding: 30px 10px;
   color: #fff;
   font-size: 50px;
   font-weight: 700;
+  max-height: 10vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.resultContainer span {
+  padding: 0;
+  margin: 0;
 }
 
 .first-row,
@@ -29,7 +38,7 @@ body {
 }
 
 button {
-  padding: 50px;
+  padding: 25px;
   cursor: pointer;
   color: #000;
   font-size: 25px;
@@ -70,6 +79,10 @@ button {
   align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 5%;
+}
+
+.calculator h1 {
+  flex: 1;
 }
 
 /* -----style in react routing---- */
@@ -120,12 +133,14 @@ article {
   position: relative;
   border-right: 2px solid coral;
   padding-right: 8px;
+  padding-left: 8px;
 }
 
 #lastItem {
   border-right: none;
   padding: 0;
   margin: 0;
+  padding-left: 8px;
 }
 
 .nav-links li::after {
