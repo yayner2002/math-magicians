@@ -4,10 +4,8 @@
 ## Built With
 
 - React
-## Live Demo
-
-[Live Demo Link](https://yayner-react-calculator-app.herokuapp.com/)
-[Live Demo Link](https://yayner-react-calculator-app.netlify.app/)
+## Live Demo Link
+[heroku](https://yayner-react-calculator-app.herokuapp.com/) | [netlify](https://yayner-react-calculator-app.netlify.app/)
 
 ## Screenshot
 ![home page](app_screenshot.png?raw=true "home screenshot")
